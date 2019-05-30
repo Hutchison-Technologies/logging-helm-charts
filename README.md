@@ -1,17 +1,14 @@
 # Helm charts
 
-[As a blogger](https://akomljen.com) and DevOps consultant I work with Helm and Kubernetes, in general, a lot.
-This is my collection of Helm charts that I'm using to do some daily work, or just for research.
+This is a set of helm charts forked from https://raw.githubusercontent.com/komljen/helm-charts/master/charts/ by [Akomljen](https://akomljen.com)
 
 To start, add the repo first:
 ```
-helm repo add akomljen-charts https://raw.githubusercontent.com/komljen/helm-charts/master/charts/
+helm repo add logging-charts https://raw.githubusercontent.com/Hutchison-Technologies/logging-helm-charts/master/charts/
 ```
 
 ## Official Charts Repository
 
 Why not use official charts repo?
 
-Well, if you tried to contribute to the official charts repo you probably know that you need to wait a few weeks or more to merge. There are a lot of opened pull requests and they require the huge amount of work. A lot of people are learning Helm while contributing, so maintainers need to guide them. That is slow and sometimes I cannot wait for changes to get merged.
-
-From time to time, I will sync those charts to official charts repo to make them available at [KubeApps](https://kubeapps.com/).
+The offical charts repo doesn't offer this particular stack. It's provided by Akomljen; rather than relying on this repository to stay up to date, we've forked it into Hutchison-Technologies so we can update and modify the charts to our needs.
